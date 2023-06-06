@@ -39,11 +39,7 @@
 
 
 
-            <Rectangle Width="560" Height="260" Stroke="Silver" StrokeThickness="2" Canvas.Left="21" Canvas.Top="20" HorizontalAlignment="Left" VerticalAlignment="Center">
-                <Rectangle.Clip>
-                    <RectangleGeometry Rect="50,50,460,160" />
-                </Rectangle.Clip>
-            </Rectangle>
+
 
 
             <Ellipse Width="5" Height="5" Fill="Silver" Canvas.Right="100" Canvas.Bottom="9" />
