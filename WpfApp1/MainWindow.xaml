@@ -35,7 +35,6 @@
             <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="270" Canvas.Bottom="6" />
             <Ellipse Width="30" Height="30" Fill="Black" Canvas.Right="6" Canvas.Bottom="6" />
 
-            <Rectangle Width="600" Height="300" Stroke="Black" StrokeThickness="2" />
 
 
 
