@@ -26,19 +26,14 @@
             <Rectangle Width="40" Height="25" Canvas.Left="0" Canvas.Top="0"  Fill="Silver"   />
 
 
-            <!-- Sol üst köşe -->
             <Path Stroke="White" StrokeThickness="2" Fill="Transparent" Data="M0,30 Q0,0 30,0" />
 
-            <!-- Sağ üst köşe -->
             <Path Stroke="White" StrokeThickness="2" Fill="Transparent" Data="M570,0 Q600,0 600,30" />
 
-            <!-- Sol alt köşe -->
             <Path Stroke="White" StrokeThickness="2" Fill="Transparent" Data="M0,270 Q0,300 30,300" />
 
-            <!-- Sağ alt köşe -->
             <Path Stroke="White" StrokeThickness="2" Fill="Transparent" Data="M570,300 Q600,300 600,270" />
 
-            <!-- Delikler -->
             <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="6" Canvas.Top="6" />
             <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="270" Canvas.Top="6" />
             <Ellipse Width="30" Height="30" Fill="Black" Canvas.Right="6" Canvas.Top="6" />
