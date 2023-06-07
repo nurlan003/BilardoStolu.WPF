@@ -5,26 +5,36 @@
     <Grid>
         <Canvas Background="Black" Width="600" Height="300" RenderTransformOrigin="0.5,0.5">
             <!-- Yasil oyun alani -->
-            <Rectangle Width="555" Height="260" Canvas.Left="25" Canvas.Top="20" Fill="Green" Stroke="Black" StrokeThickness="2" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <Rectangle Width="555" Height="260" Canvas.Left="25" Canvas.Top="20" Fill="Green" Stroke="Black" StrokeThickness="2" />
            
             <!--Gumus desik kenarlari -->
-            <Rectangle Width="35" Height="25" Canvas.Left="268" Canvas.Bottom="0"  Fill="Silver"  StrokeThickness="2" />
-            <Rectangle Width="35" Height="25" Canvas.Left="268" Canvas.Top="0"  Fill="Silver"  StrokeThickness="2" />
-            <Rectangle Width="25" Height="40" Canvas.Left="0" Canvas.Bottom="0"  Fill="Silver" StrokeThickness="2" />
-            <Rectangle Width="40" Height="25" Canvas.Left="0" Canvas.Bottom="0"  Fill="Silver"  StrokeThickness="2" />
-            <Rectangle Width="25" Height="40" Canvas.Right="0" Canvas.Bottom="0"  Fill="Silver" StrokeThickness="2" />
-            <Rectangle Width="40" Height="25" Canvas.Right="0" Canvas.Bottom="0"  Fill="Silver"  StrokeThickness="2" />
-            <Rectangle Width="25" Height="40" Canvas.Right="0" Canvas.Top="0"  Fill="Silver" StrokeThickness="2" />
-            <Rectangle Width="40" Height="25" Canvas.Right="0" Canvas.Top="0"  Fill="Silver"  StrokeThickness="2" />
-            <Rectangle Width="25" Height="40" Canvas.Left="0" Canvas.Top="0"  Fill="Silver"  />
-            <Rectangle Width="40" Height="25" Canvas.Left="0" Canvas.Top="0"  Fill="Silver"   />
+            <Rectangle Width="35" Height="22" Canvas.Left="268" Canvas.Bottom="0"  Fill="Silver"  />
+            
+            <Rectangle Width="35" Height="22" Canvas.Left="268" Canvas.Top="0"  Fill="Silver"  />
+            <Rectangle Width="26" Height="40" Canvas.Left="0" Canvas.Bottom="0"  Fill="Silver"  />
+            <Rectangle Width="40" Height="23" Canvas.Left="0" Canvas.Bottom="0"  Fill="Silver"  />
+            
+            <Rectangle Width="22" Height="40" Canvas.Right="0" Canvas.Bottom="0"  Fill="Silver"  />
+            <Rectangle Width="40" Height="22" Canvas.Right="0" Canvas.Bottom="0"  Fill="Silver"  />
+            <Rectangle Width="22" Height="40" Canvas.Right="0" Canvas.Top="0"  Fill="Silver"  />
+            <Rectangle Width="40" Height="21" Canvas.Right="0" Canvas.Top="0"  Fill="Silver"   />
+            <Rectangle Width="26" Height="40" Canvas.Left="0" Canvas.Top="0"  Fill="Silver"  />
+            <Rectangle Width="40" Height="22" Canvas.Left="0" Canvas.Top="0"  Fill="Silver"   />
+
+            <!-- Masa yasil hisse kenarlair -->
+            <Rectangle Width="10" Height="220" Canvas.Left="27" Canvas.Top="40"  Fill="DarkGreen"   />
+            <Rectangle Width="10" Height="220" Canvas.Right="23" Canvas.Top="40"  Fill="DarkGreen"   />
+            <Rectangle Width="227" Height="10" Canvas.Left="40" Canvas.Top="22"  Fill="DarkGreen"   />
+            <Rectangle Width="227" Height="10" Canvas.Left="40" Canvas.Bottom="22"  Fill="DarkGreen"   />
+            <Rectangle Width="257" Height="10" Canvas.Right="40" Canvas.Bottom="22"  Fill="DarkGreen"   />
+            <Rectangle Width="257" Height="10" Canvas.Right="40" Canvas.Top="22"  Fill="DarkGreen"   />
 
             <!-- Masa desikleri -->
-            <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="6" Canvas.Top="6" />
-            <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="270" Canvas.Top="6" />
+            <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="6" Canvas.Top="6"  />
+            <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="270" Canvas.Top="4" />
             <Ellipse Width="30" Height="30" Fill="Black" Canvas.Right="6" Canvas.Top="6" />
             <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="6" Canvas.Bottom="6" />
-            <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="270" Canvas.Bottom="6" />
+            <Ellipse Width="30" Height="30" Fill="Black" Canvas.Left="270" Canvas.Bottom="4" />
             <Ellipse Width="30" Height="30" Fill="Black" Canvas.Right="6" Canvas.Bottom="6" />
 
             <!-- Masa kenarindaki kicik bezek ucun daireler -->
@@ -50,24 +60,24 @@
 
             <!-- Bilyard Toplari -->
             <Ellipse Width="15" Height="15" Fill="Orange" Canvas.Left="100" Canvas.Bottom="110" />
-            <Ellipse Width="15" Height="15" Fill="Orange" Canvas.Left="100" Canvas.Bottom="125" />
+            <Ellipse Width="15" Height="15" Fill="Violet" Canvas.Left="100" Canvas.Bottom="125" />
             <Ellipse Width="15" Height="15" Fill="Yellow" Canvas.Left="100" Canvas.Bottom="140" />
             <Ellipse Width="15" Height="15" Fill="Bisque" Canvas.Left="100" Canvas.Bottom="155" />
             <Ellipse Width="15" Height="15" Fill="RosyBrown" Canvas.Left="114" Canvas.Bottom="117.5" />
             <Ellipse Width="15" Height="15" Fill="Blue" Canvas.Left="114" Canvas.Bottom="132.5" />
-            <Ellipse Width="15" Height="15" Fill="Azure" Canvas.Left="114" Canvas.Bottom="147.5" />
+            <Ellipse Width="15" Height="15" Fill="Black" Canvas.Left="114" Canvas.Bottom="147.5" />
             <Ellipse Width="15" Height="15" Fill="CadetBlue" Canvas.Left="128" Canvas.Bottom="140" />
             <Ellipse Width="15" Height="15" Fill="DarkCyan" Canvas.Left="128" Canvas.Bottom="125" />
             <Ellipse Width="15" Height="15" Fill="Red" Canvas.Left="142" Canvas.Bottom="132.5" />
-            <Ellipse Width="15" Height="15" Fill="White" Canvas.Left="435" Canvas.Bottom="132.5" Canvas.Top="142" />
+            <Ellipse Width="15" Height="15" Fill="White" Canvas.Left="435" Canvas.Bottom="132.5"  />
 
 
 
             <!-- Bilyard cubugu -->
-            <Line X1="0" Y1="30" X2="200" Y2="200" Canvas.Bottom="40" Canvas.Left ="302" StrokeThickness="8" Height="211" Canvas.Top="57" Width="470" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Line X1="0" Y1="30" X2="200" Y2="200" Canvas.Bottom="40" Canvas.Left ="302" StrokeThickness="8" Height="211"  Width="270" >
                 <Line.Stroke>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                        <GradientStop Color="Black" Offset="0" />
+                    <LinearGradientBrush>
+                        <GradientStop Color="Black" />
                     </LinearGradientBrush>
                 </Line.Stroke>
             </Line>
